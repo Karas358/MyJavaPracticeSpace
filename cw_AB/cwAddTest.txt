@@ -1,0 +1,11 @@
+/*package cw_AB;
+
+
+public class cwAddTest {
+    @Test
+    public void testSum() throws Exception {
+        byte a = 1;
+        byte b = 2;
+        assertEquals(3, cwAdd.getSum(a, b));
+    }
+}/*
