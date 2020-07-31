@@ -4,11 +4,6 @@ public class longest {
 
     public static void main(String[] args)
     {
-        /*assertEquals(7, findLongest("The quick white fox jumped around the massive dog"));
-        assertEquals(10, Kata.findLongest("Take me to tinseltown with you")); 
-        assertEquals(7, Kata.findLongest("Sausage chops")); 
-        assertEquals(6, Kata.findLongest("Wind your body and wiggle your belly")); 
-        assertEquals(7, Kata.findLongest("Lets all go on holiday")); */
         int z = findLongest("The quick white fox jumped around the massive dog");
     }
 
