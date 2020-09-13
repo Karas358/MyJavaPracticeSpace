@@ -4,7 +4,7 @@ public class Jumps{
         int X = 10;
         int Y = 85;
         int D = 30;
-        int inteee = 0;;
+        int inteee = 0;
         inteee = Solution(X, Y , D);
     }
     public static int Solution(int X, int Y, int D){
