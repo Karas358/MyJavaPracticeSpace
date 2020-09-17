@@ -7,8 +7,8 @@ public class ReverseInteger {
 
     public static void main(String[] args){
         reverse(1534236469);
+        int j =reverse(-758);
     }
-
     public static int reverse(int x){
         
         if(validateNumber(x)){
@@ -24,19 +24,14 @@ public class ReverseInteger {
             for (int z = chars.length; 0 < z  ;z--) {
                 listChars.add(String.valueOf(chars[z - 1]));
             }
-            String last = "";
-            for (String string : listChars) {
-                last += string;
-            }
+            StringBuilder lastString = new StringBuilder();
+            for (String string : listChars) {lastString.append(string);}
             try{
-                int res = Integer.parseInt(last);
+                int res = Integer.parseInt(lastString.toString());
                 if(isNegative) res = -(res);
                 return res;
             }
-            catch(Exception e){
-                return 0;
-            }
-           
+            catch(Exception e){return 0;}
         }
         return 0;
     }
