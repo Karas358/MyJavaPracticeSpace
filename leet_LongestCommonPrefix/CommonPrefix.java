@@ -31,14 +31,11 @@ public class CommonPrefix {
                     }else{
                         return pref.substring(0, (pref.length()-1));
                     }
-                    
                 }
-                
             }
-            return pref;// pref.substring(0, (pref.length()-1));
+            return pref;
         }catch(Exception e){
-                return "";
+            return "";
         }
-        
     }
 }
