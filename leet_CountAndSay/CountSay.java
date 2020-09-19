@@ -2,6 +2,11 @@ package leet_CountAndSay;
 
 public class CountSay {
 
+    /**
+     * Developer - Mfundo Falteni
+     * @param {int} n
+     * @return {string}
+    */
     public static void main(String[] args){
         String se = countAndSay(2);
     }

@@ -2,6 +2,11 @@ package leet_Impplement_strStr;
 
 public class NeedleHayStack {
 
+     /**
+     * Developer - Mfundo Falteni
+     * @param {string} haystack, needle
+     * @return {int}
+    */
     public static void main(String[] args){
         //int is = strStr("hello", "ll");
         //int is = strStr("hello", "zz");
