@@ -8,7 +8,7 @@ public class CountSay {
      * @return {string}
     */
     public static void main(String[] args){
-        String se = countAndSay(2);
+        String se = countSay(2);
     }
 
     public static String countAndSay(int n) {
@@ -28,12 +28,34 @@ public class CountSay {
                         count += 1;
                     }
                 }
-                
                 if(count > 0) res.append(count + String.valueOf(charSeq[y]));
                 if(charSeq[y] < 0)  res.append(String.valueOf(count));
                 if(count < 0) res.append(String.valueOf(charSeq[y]));
             }
             
+        }
+        return res.toString();
+    }
+
+    public static String countSay(int n){
+        if(n > 30 || n < 0) return "";
+        String seq = "1";
+        int count = 1;
+        StringBuilder res = new StringBuilder();
+        int currLeft = 0;
+
+        char[] charSeq = null;
+        while(currLeft < n){
+            if(n == 1) return seq;
+            charSeq = seq.toString().toCharArray();
+            for(int x = 0; x < n - 1; x++){
+                if(charSeq[currLeft] == charSeq[currLeft + 1]){
+                    count++;
+                    currLeft++;
+                }
+            }
+            
+            res.append(charSeq[currLeft] + "" + count);
         }
         return res.toString();
     }

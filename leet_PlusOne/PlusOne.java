@@ -1,18 +1,22 @@
 package leet_PlusOne;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class PlusOne {
+    /**
+     * Developer - Mfundo Falteni
+     * @param {int[]} digits
+     * @return {int[]}
+    */
     public static void main(String[] args){
         
         //int[] digits = {1 , 2 , 3, 9};
         //int[] digits = {1 , 2 , 3, 4};
         //int[] digits = {0};
-        int[] digits = {};
+        //int[] digits = {};
         //int[] digits = {9};
-        //int[] digits = {9, 9};
+        int[] digits = {9, 9};
         digits = addOne(digits);
     }
 
@@ -36,9 +40,9 @@ public class PlusOne {
         while(rem > 0){
             if(n > 0){
                 if(digitsArr.get(n - 1) == 9){
-                digitsArr.set(n - 1, 0); 
-                rem = 1;
-                n--;
+                    digitsArr.set(n - 1, 0); 
+                    rem = 1;
+                    n--;
                 }
                 else{
                     digitsArr.set(n - 1,(digitsArr.get(n - 1) + 1));

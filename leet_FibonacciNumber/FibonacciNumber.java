@@ -8,7 +8,8 @@ public class FibonacciNumber {
 
     public static int fib(int N){
 
-        if(N > 1) return fib(N - 1) + fib(N - 2);
+        if(N < 1) 
+        return 1;
         return fib(N - 1) + fib(N - 2);
     }
 }
