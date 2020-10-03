@@ -1,6 +1,11 @@
 package leet_FindDifference;
 
 public class FindDifference {
+    /**
+     * Developer - Mfundo Falteni
+     * @param {String} s,t
+     * @return {char}
+    */
     public static void main(String[] args){
         /* String s = "ae";
         String t = "aea"; */
