@@ -7,8 +7,18 @@ public class SearchInsertPosition {
      * @param {int[]} nums
      * @return {int}
     */
+    public static int searchInsertPosition(int[] nums, int target){
+        int len = nums.length;
+        for(int x = 0; x < len;x++) {
+            if(target <= nums[x]) return x;
+        }
+        return len;
+    }
     public static void main(String[] args){
-        
+        int[] nums = {1, 3, 5 , 6};
+        int target = 5; 
+        //Ans 2
+        int retarget = searchInsertPosition(nums, target);
         /* int[] nums = {1, 3, 5 , 6};
         int target = 7;
         Ans 4
@@ -33,17 +43,8 @@ public class SearchInsertPosition {
         int target = 8; 
         //Ans 4
         */
-        int[] nums = {1, 3, 5 , 6};
-        int target = 5; 
-        //Ans 2
-        int retarget = searchInsertPosition(nums, target);
+        
     }
-    public static int searchInsertPosition(int[] nums, int target){
-        int len = nums.length;
-        for(int x = 0; x < len;x++) {
-            if(target <= nums[x]) return x;
-        }
-        return len;
-    }
+    
 
 }

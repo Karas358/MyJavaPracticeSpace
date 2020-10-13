@@ -28,7 +28,7 @@ public class CountSay {
                         count += 1;
                     }
                 }
-                if(count > 0) res.append(count + String.valueOf(charSeq[y]));
+                if(count > 0) res.append(count).append(String.valueOf(charSeq[y]));// + String.valueOf(charSeq[y]));
                 if(charSeq[y] < 0)  res.append(String.valueOf(count));
                 if(count < 0) res.append(String.valueOf(charSeq[y]));
             }
