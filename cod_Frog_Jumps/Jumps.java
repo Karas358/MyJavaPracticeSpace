@@ -1,4 +1,7 @@
 package cod_Frog_Jumps;
+
+import java.io.Console;
+
 public class Jumps{
     public static void main(String[] args){
         int X = 10;
@@ -6,6 +9,7 @@ public class Jumps{
         int D = 30;
         int inteee = 0;
         inteee = Solution(X, Y , D);
+        
     }
     public static int Solution(int X, int Y, int D){
         int M = 1000000000;

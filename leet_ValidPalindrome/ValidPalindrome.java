@@ -1,6 +1,4 @@
 package leet_ValidPalindrome;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class ValidPalindrome{
     /**
