@@ -24,11 +24,11 @@ public class FindDifference {
         Arrays.sort(sChar);
         Arrays.sort(tChar);
 
-        
-        return tChar[tChar.length - sChar.hashCode()];
-    }
-
-    public static String sortString(String stringSort){
-        return stringSort;
+        for(int x = 0;x < sChar.length;x++ ){
+            if(sChar[x] != tChar[x]){
+                return tChar[x];
+            }
+        }
+        return tChar[tChar.length - 1];
     }
 }

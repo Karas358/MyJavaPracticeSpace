@@ -1,0 +1,210 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JavaOperators<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "Java_Operators.JavaOperators",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Sort<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "Sort_Bubble.Sort",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Insertion<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "Sort_Insertion.Insertion",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Selection<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "Sort_Selection.Selection",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CutString<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "cod_CutString.CutString",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-JumpSecond<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "cod_Frog_Jumps.JumpSecond",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Jumps<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "cod_Frog_Jumps.Jumps",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OddOccurence<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "cod_OddOccurence.OddOccurence",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Permutation<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "cod_Permutation.Permutation",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Shifter<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "cod_ShiftArray.Shifter",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindSmallestInteger<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "cod_SmallestInt.FindSmallestInteger",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-longest<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "cw_SquashBugs.longest",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ArraySum<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "hackerRank_ArraySum.ArraySum",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CompareTriplets<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "hackerRank_CompareTriplets.CompareTriplets",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BigSum<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "hackerRank_VeryBigSum.BigSum",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CountSay<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "leet_CountAndSay.CountSay",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FindDifference<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "leet_FindDifference.FindDifference",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-NeedleHayStack<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "leet_Implement_strStr.NeedleHayStack",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-CommonPrefix<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "leet_LongestCommonPrefix.CommonPrefix",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PalindromeNumber<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "leet_PalindromeNumber.PalindromeNumber",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PlusOne<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "leet_PlusOne.PlusOne",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveDuplicates<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "leet_RemoveDuplicates.RemoveDuplicates",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RemoveElement<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "leet_RemoveElement.RemoveElement",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ReverseInteger<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "leet_ReverseInteger.ReverseInteger",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-RotateArray<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "leet_RotateArray.RotateArray",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SearchInsertPosition<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "leet_SearchInsertPosition.SearchInsertPosition",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SingleNumber<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "leet_SingleNumber.SingleNumber",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ValidPalindrome<MyJavaPracticeSpace_5b2be879>",
+            "request": "launch",
+            "mainClass": "leet_ValidPalindrome.ValidPalindrome",
+            "projectName": "MyJavaPracticeSpace_5b2be879"
+        }
+    ]
+}

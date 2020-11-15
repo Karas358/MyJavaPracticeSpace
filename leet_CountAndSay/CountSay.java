@@ -1,4 +1,6 @@
 package leet_CountAndSay;
+ 
+
 
 public class CountSay {
 
@@ -8,10 +10,40 @@ public class CountSay {
      * @return {string}
     */
     public static void main(String[] args){
-        String se = countSay(2);
+        String se = count_Say(2);
+    }
+    public static String count_Say(int num){
+
+        if(1 <= num && num <= 30){
+            if(num == 1) return "1";
+            int leftCur = 0, rightCur = 0;
+            String seq = "1";
+            StringBuilder sb = new StringBuilder();
+            for(int x = 0; x < num - 1; x++){
+                int counter = 0;
+                char[] charSeq = seq.toCharArray();
+                while(rightCur < charSeq.length){
+                    if(charSeq[leftCur] == charSeq[rightCur]){
+                        counter++;
+                        rightCur++;
+                    }else{
+                        
+                        leftCur = rightCur;
+                    }
+                    sb.append(counter + "").append(charSeq[leftCur] + "");
+                    seq = sb.toString();
+                    sb.delete(0, sb.length());
+                }
+            }
+            return seq;
+        }
+        
+        return "0";
+        
     }
 
-    public static String countAndSay(int n) {
+
+    /* public static String countAndSay(int n) {
         if(n > 30 || n < 0) return "";
         String seq = "1";
         int count = 0;
@@ -58,5 +90,5 @@ public class CountSay {
             res.append(charSeq[currLeft] + "" + count);
         }
         return res.toString();
-    }
+    } */
 }

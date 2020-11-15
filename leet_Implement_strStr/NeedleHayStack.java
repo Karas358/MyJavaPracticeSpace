@@ -1,4 +1,4 @@
-package leet_Impplement_strStr;
+package leet_Implement_strStr;
 
 public class NeedleHayStack {
 
